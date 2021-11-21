@@ -31,27 +31,33 @@ h3 {
   margin-top: 130px;
 }
 
-.about {
+#about {
   color: var(--header-font-color);
   font-family: var(--font-family-header);
   font-size: 30px;
-  margin: 25px 5px 15px;
+  margin: 25px 15px 15px;
 }
 .story {
   color: var(--font-color);
   font-family: var(--font-family);
-  margin: 15px 15px;
+  margin: 15px 35px;
   text-align: justify;
 }
 .gelareh-photo {
-  max-width: 55%;
+  max-width: 90%;
   height: auto;
   border-radius: 40px;
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 .spass {
   margin-top: 80px;
+}
+.experinse {
+  margin: 90px 40px;
+  color: var(--header-font-color);
+  font-family: var(--font-family-header);
+  font-size: 50px;
 }
 @media (max-width: 900px) {
   h3 {
@@ -61,13 +67,14 @@ h3 {
     font-size: 43px;
   }
   .girl-laptop {
-    margin-top: 20px;
+    margin: 20px auto;
+    display: block;
   }
   .gelareh-photo {
     display: block;
     margin: 0 auto;
   }
   .spass {
-    margin-top: 0px;
+    margin-top: 20px;
   }
 }
