@@ -27,14 +27,14 @@ h3 {
 .girl-laptop {
   max-width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 10px;
   margin-top: 130px;
 }
 
 #about {
   color: var(--header-font-color);
   font-family: var(--font-family-header);
-  font-size: 30px;
+  font-size: 40px;
   margin: 25px 15px 15px;
 }
 .story {
@@ -42,6 +42,7 @@ h3 {
   font-family: var(--font-family);
   margin: 15px 35px;
   text-align: justify;
+  font-size: 20px;
 }
 .gelareh-photo {
   max-width: 90%;
@@ -58,6 +59,45 @@ h3 {
   color: var(--header-font-color);
   font-family: var(--font-family-header);
   font-size: 50px;
+}
+.head-travel {
+  color: var(--header-font-color);
+  font-family: var(--font-family-header);
+  font-size: 40px;
+  margin: 25px 0px 15px;
+}
+.travel-story {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  margin: 15px 5px;
+  text-align: justify;
+  font-size: 20px;
+}
+.travel-photo {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
+.head-weather {
+  color: var(--header-font-color);
+  font-family: var(--font-family-header);
+  font-size: 40px;
+  margin: 25px 0px 15px;
+}
+.weather-story {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  margin: 15px 15px;
+  text-align: justify;
+  font-size: 20px;
+}
+.weather-photo {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 100px;
 }
 @media (max-width: 900px) {
   h3 {
@@ -76,5 +116,13 @@ h3 {
   }
   .spass {
     margin-top: 20px;
+  }
+  .travel-photo {
+    display: block;
+    margin: 0 auto;
+  }
+  .weather-photo {
+    display: block;
+    margin: 0 auto;
   }
 }
