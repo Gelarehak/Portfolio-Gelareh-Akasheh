@@ -1,0 +1,73 @@
+:root {
+  --font-color: #f6e6e0;
+  --header-font-color: #e8cccb;
+  --font-family: Pumo, Helvetica, sans-serif;
+  --font-family-header: Bitter, serif;
+}
+
+body {
+  background-color: #969593;
+}
+h1 {
+  color: var(--header-font-color);
+  font-family: var(--font-family-header);
+  font-size: 60px;
+  font-weight: bold;
+}
+h2 {
+  color: var(--font-color);
+  font-family: var(--font-family);
+}
+h3 {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  margin-top: 240px;
+  font-size: 20px;
+}
+.girl-laptop {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 130px;
+}
+
+.about {
+  color: var(--header-font-color);
+  font-family: var(--font-family-header);
+  font-size: 30px;
+  margin: 25px 5px 15px;
+}
+.story {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  margin: 15px 15px;
+  text-align: justify;
+}
+.gelareh-photo {
+  max-width: 55%;
+  height: auto;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.spass {
+  margin-top: 80px;
+}
+@media (max-width: 900px) {
+  h3 {
+    margin-top: 90px;
+  }
+  h1 {
+    font-size: 43px;
+  }
+  .girl-laptop {
+    margin-top: 20px;
+  }
+  .gelareh-photo {
+    display: block;
+    margin: 0 auto;
+  }
+  .spass {
+    margin-top: 0px;
+  }
+}
