@@ -51,6 +51,7 @@ h3 {
   margin: 15px 35px;
   text-align: justify;
   font-size: 20px;
+  line-height: 1.7;
 }
 #gelareh-photo {
   max-width: 90%;
@@ -111,6 +112,7 @@ h3 {
   margin: 15px 5px;
   text-align: justify;
   font-size: 20px;
+  line-height: 1.7;
 }
 .travel-photo {
   max-width: 50%;
@@ -131,6 +133,7 @@ h3 {
   margin: 15px 15px;
   text-align: justify;
   font-size: 20px;
+  line-height: 1.7;
 }
 .weather-photo {
   max-width: 70%;
@@ -161,6 +164,7 @@ h3 {
   margin: 15px 5px;
   text-align: justify;
   font-size: 20px;
+  line-height: 1.7;
 }
 .dictionary-photo {
   max-width: 100%;
@@ -181,6 +185,7 @@ h3 {
   margin: 25px 5px 100px;
   text-align: justify;
   font-size: 20px;
+  line-height: 1.7;
 }
 .get-in-touch a {
   text-decoration: none;
@@ -297,7 +302,8 @@ h3 {
     margin: 0px auto;
     margin-top: 30px;
   }
-  .head-dictionary {
+  .head-dictionary,
+  .head-weather {
     margin-top: 20px;
   }
   .get-in-touch {
