@@ -3,10 +3,11 @@
   --header-font-color: #e8cccb;
   --font-family: Pumo, Helvetica, sans-serif;
   --font-family-header: Bitter, serif;
+  --background-color: #969593;
 }
 
 body {
-  background-color: #969593;
+  background-color: var(--background-color);
 }
 h1 {
   color: var(--header-font-color);
@@ -53,6 +54,38 @@ h3 {
 .spass {
   margin-top: 80px;
 }
+.spass-but {
+  margin-top: 150px;
+}
+.footer {
+  background-color: var(--font-color);
+}
+.icon {
+  justify-content: center;
+  display: flex;
+}
+.icon a {
+  margin: 5px 20px 0px;
+  text-decoration: none;
+  font-size: 40px;
+  color: var(--background-color);
+}
+.email {
+  justify-content: center;
+  display: flex;
+}
+.email a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--background-color);
+  margin-top: 0px;
+}
+.coded-by {
+  text-align: center;
+  color: var(--background-color);
+  opacity: 0.8;
+  padding: 20px 0px 10px;
+}
 .experinse {
   margin: 90px 40px;
   color: var(--header-font-color);
@@ -83,7 +116,7 @@ h3 {
   color: var(--header-font-color);
   font-family: var(--font-family-header);
   font-size: 40px;
-  margin: 25px 0px 15px;
+  margin: 45px 0px 15px;
 }
 .weather-story {
   color: var(--font-color);
@@ -97,6 +130,43 @@ h3 {
   height: auto;
   border-radius: 10px;
   margin-left: 100px;
+}
+.lunch {
+  background-color: var(--font-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-color: var(--font-color);
+  margin-left: 20px;
+}
+.lunch a {
+  text-decoration: none;
+  color: var(--background-color);
+}
+.head-dictionary {
+  color: var(--header-font-color);
+  font-family: var(--font-family-header);
+  font-size: 40px;
+  margin: 65px 0px 15px;
+}
+.dictionary-story {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  margin: 15px 5px;
+  text-align: justify;
+  font-size: 20px;
+}
+.dictionary-photo {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.contact {
+  margin: 90px 40px;
+  color: var(--header-font-color);
+  font-family: var(--font-family-header);
+  font-size: 50px;
 }
 @media (max-width: 900px) {
   h3 {
@@ -123,5 +193,16 @@ h3 {
   .weather-photo {
     display: block;
     margin: 0 auto;
+  }
+  .lunch {
+    margin: 10px 10px 30px;
+  }
+  .dictionary-photo {
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+  }
+  .head-dictionary {
+    margin-top: 20px;
   }
 }
