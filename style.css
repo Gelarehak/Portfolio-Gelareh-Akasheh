@@ -171,7 +171,7 @@ h3 {
 .get-in-touch {
   color: var(--font-color);
   font-family: var(--font-family);
-  margin: 25px 5px 150px;
+  margin: 25px 5px 100px;
   text-align: justify;
   font-size: 20px;
 }
@@ -179,6 +179,36 @@ h3 {
   text-decoration: none;
   color: var(--font-color);
   font-family: var(--font-family);
+}
+.contact-me {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.name {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+.email-address {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+.message {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+.submit {
+  font-family: var(--font-family);
+  background-color: var(--font-color);
+  color: var(--background-color);
+  border-color: var(--font-color);
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 @media (max-width: 900px) {
   h3 {
