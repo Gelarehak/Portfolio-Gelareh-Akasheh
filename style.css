@@ -9,6 +9,13 @@
 body {
   background-color: var(--background-color);
 }
+nav {
+  padding-left: 20px;
+}
+.gelareh-name {
+  margin-right: 40px;
+}
+
 h1 {
   color: var(--header-font-color);
   font-family: var(--font-family-header);
