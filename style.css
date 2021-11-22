@@ -313,4 +313,14 @@ h3 {
   .get-in-touch {
     margin-bottom: 50px;
   }
+  .icon a {
+    font-size: 20px;
+    margin: 5px 10px;
+  }
+  .email a {
+    font-size: 13px;
+  }
+  .coded-by {
+    font-size: 13px;
+  }
 }
