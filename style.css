@@ -45,7 +45,7 @@ h3 {
   text-align: justify;
   font-size: 20px;
 }
-.gelareh-photo {
+#gelareh-photo {
   max-width: 90%;
   height: auto;
   border-radius: 40px;
@@ -163,10 +163,22 @@ h3 {
   margin-top: 40px;
 }
 .contact {
-  margin: 90px 40px;
+  margin: 90px 0px 20px;
   color: var(--header-font-color);
   font-family: var(--font-family-header);
   font-size: 50px;
+}
+.get-in-touch {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  margin: 25px 5px 150px;
+  text-align: justify;
+  font-size: 20px;
+}
+.get-in-touch a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-family: var(--font-family);
 }
 @media (max-width: 900px) {
   h3 {
@@ -179,7 +191,7 @@ h3 {
     margin: 20px auto;
     display: block;
   }
-  .gelareh-photo {
+  #gelareh-photo {
     display: block;
     margin: 0 auto;
   }
