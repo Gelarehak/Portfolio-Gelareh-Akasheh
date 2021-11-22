@@ -94,7 +94,7 @@ h3 {
   padding: 20px 0px 10px;
 }
 .experinse {
-  margin: 90px 40px;
+  margin: 90px 10px;
   color: var(--header-font-color);
   font-family: var(--font-family-header);
   font-size: 50px;
@@ -170,7 +170,7 @@ h3 {
   margin-top: 10px;
 }
 .contact {
-  margin: 90px 0px 20px;
+  margin: 90px 10px 20px;
   color: var(--header-font-color);
   font-family: var(--font-family-header);
   font-size: 50px;
@@ -218,6 +218,26 @@ h3 {
   margin: 0 auto;
 }
 @media (max-width: 900px) {
+  .coded-by,
+  h1,
+  h2,
+  h3,
+  .story,
+  .travel-story,
+  .weather-story,
+  .dictionary-story,
+  .get-in-touch,
+  .name,
+  .email-address,
+  .message,
+  .submit,
+  #about,
+  .head-travel,
+  .head-weather,
+  .head-dictionary {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   h3 {
     margin-top: 90px;
   }
@@ -225,12 +245,38 @@ h3 {
     font-size: 43px;
   }
   .girl-laptop {
-    margin: 20px auto;
+    margin: 10px auto;
     display: block;
+    max-width: 90%;
+  }
+  .story,
+  .travel-story,
+  .weather-story,
+  .dictionary-story,
+  .get-in-touch,
+  .name,
+  .email-address,
+  .message,
+  .submit {
+    font-size: 15px;
+  }
+  #about,
+  .head-travel,
+  .head-weather,
+  .head-dictionary {
+    font-size: 25px;
+  }
+  .experinse,
+  .contact {
+    font-size: 35px;
+  }
+  .experinse {
+    margin-bottom: 40px;
   }
   #gelareh-photo {
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
   }
   .spass {
     margin-top: 20px;
@@ -253,5 +299,8 @@ h3 {
   }
   .head-dictionary {
     margin-top: 20px;
+  }
+  .get-in-touch {
+    margin-bottom: 50px;
   }
 }
