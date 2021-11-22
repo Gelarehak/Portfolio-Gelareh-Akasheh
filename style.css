@@ -247,7 +247,10 @@ h3 {
     margin-top: 90px;
   }
   h1 {
-    font-size: 43px;
+    font-size: 33px;
+  }
+  h2 {
+    font-size: 20px;
   }
   .girl-laptop {
     margin: 10px auto;
@@ -262,7 +265,8 @@ h3 {
   .name,
   .email-address,
   .message,
-  .submit {
+  .submit,
+  h3 {
     font-size: 15px;
   }
   #about,
